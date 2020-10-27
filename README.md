@@ -1,4 +1,4 @@
-# SCI-synerJy
+# SCI-synerJY
 
 Parallel version of the SCI-synergy project available at: https://gitlab.com/InfoKnow/SocialNetwork/aureliocosta-sci-synergy
 
