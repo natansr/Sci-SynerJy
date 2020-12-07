@@ -1,0 +1,355 @@
+{
+  "actors": [
+    {
+      "id": "b7692b8c-042d-4e72-973e-e1e6cf4fd2da",
+      "text": "DBLP API",
+      "type": "istar.Actor",
+      "x": 154,
+      "y": 152,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "cfce00dc-6d36-468f-a8a8-0ee465730740",
+      "text": "Usuário",
+      "type": "istar.Actor",
+      "x": 646,
+      "y": 54,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "237974be-13e8-46fe-a8c4-83c025faeb53",
+      "text": "SCI-Synergy",
+      "type": "istar.Actor",
+      "x": 483,
+      "y": 347,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "0b170a08-a73f-4bac-8a84-1c819709fe3a",
+      "text": "Desamb Agent",
+      "type": "istar.Agent",
+      "x": 173,
+      "y": 588,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "40db80ca-86b2-4297-aa0c-1119f2f8f883",
+      "text": "Informações de autores",
+      "type": "istar.Resource",
+      "x": 233,
+      "y": 303,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "237974be-13e8-46fe-a8c4-83c025faeb53",
+      "target": "b7692b8c-042d-4e72-973e-e1e6cf4fd2da"
+    },
+    {
+      "id": "c629941b-f31f-4e23-8874-6f20351a0e5c",
+      "text": "Informações de publicações",
+      "type": "istar.Resource",
+      "x": 274,
+      "y": 234,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "237974be-13e8-46fe-a8c4-83c025faeb53",
+      "target": "b7692b8c-042d-4e72-973e-e1e6cf4fd2da"
+    },
+    {
+      "id": "e4c39e86-2c4e-4815-80ae-aa6529350c97",
+      "text": "Analisar dados de redes sociais científicas",
+      "type": "istar.Goal",
+      "x": 426,
+      "y": 150,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "cfce00dc-6d36-468f-a8a8-0ee465730740",
+      "target": "237974be-13e8-46fe-a8c4-83c025faeb53"
+    },
+    {
+      "id": "afca2328-4267-4e99-95dc-09eb69d17f9d",
+      "text": "Visualização de redes sociais científicas",
+      "type": "istar.Resource",
+      "x": 632,
+      "y": 278,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "cfce00dc-6d36-468f-a8a8-0ee465730740",
+      "target": "237974be-13e8-46fe-a8c4-83c025faeb53"
+    },
+    {
+      "id": "35516646-86de-4444-96e1-fb28e7611c7a",
+      "text": "Informações válidas de pesquisadores e publicações",
+      "type": "istar.Resource",
+      "x": 518,
+      "y": 230,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "cfce00dc-6d36-468f-a8a8-0ee465730740",
+      "target": "237974be-13e8-46fe-a8c4-83c025faeb53"
+    },
+    {
+      "id": "b3c1862f-f239-4d85-a296-b072f01ef0ba",
+      "text": "Informações de autores",
+      "type": "istar.Resource",
+      "x": 42,
+      "y": 364,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "0b170a08-a73f-4bac-8a84-1c819709fe3a",
+      "target": "b7692b8c-042d-4e72-973e-e1e6cf4fd2da"
+    },
+    {
+      "id": "f96de0ac-78df-4c9f-8c66-62d908bc1276",
+      "text": "Informações de publicações",
+      "type": "istar.Resource",
+      "x": 150,
+      "y": 364,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "0b170a08-a73f-4bac-8a84-1c819709fe3a",
+      "target": "b7692b8c-042d-4e72-973e-e1e6cf4fd2da"
+    },
+    {
+      "id": "43d540d9-413c-43d5-af4f-43624e3382c7",
+      "text": "Banco de Dados",
+      "type": "istar.Resource",
+      "x": 283,
+      "y": 428,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "0b170a08-a73f-4bac-8a84-1c819709fe3a",
+      "target": "237974be-13e8-46fe-a8c4-83c025faeb53"
+    },
+    {
+      "id": "d9ffd0e7-0371-4a56-b395-eab87af4556c",
+      "text": "Tratamento de dados",
+      "type": "istar.Task",
+      "x": 421,
+      "y": 526,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "0b170a08-a73f-4bac-8a84-1c819709fe3a",
+      "target": "237974be-13e8-46fe-a8c4-83c025faeb53"
+    },
+    {
+      "id": "8a19b240-f173-479f-999d-80e1919e0b38",
+      "text": "Inserção de dados",
+      "type": "istar.Task",
+      "x": 348,
+      "y": 484,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "0b170a08-a73f-4bac-8a84-1c819709fe3a",
+      "target": "237974be-13e8-46fe-a8c4-83c025faeb53"
+    }
+  ],
+  "links": [
+    {
+      "id": "73e0cc35-9eea-45e7-bbb8-2437444180fa",
+      "type": "istar.DependencyLink",
+      "source": "237974be-13e8-46fe-a8c4-83c025faeb53",
+      "target": "40db80ca-86b2-4297-aa0c-1119f2f8f883"
+    },
+    {
+      "id": "10cab770-fc99-4921-955e-78a30e65e7cb",
+      "type": "istar.DependencyLink",
+      "source": "40db80ca-86b2-4297-aa0c-1119f2f8f883",
+      "target": "b7692b8c-042d-4e72-973e-e1e6cf4fd2da"
+    },
+    {
+      "id": "9b625fc0-b6ba-4d70-9c9c-a04334979a0d",
+      "type": "istar.DependencyLink",
+      "source": "237974be-13e8-46fe-a8c4-83c025faeb53",
+      "target": "c629941b-f31f-4e23-8874-6f20351a0e5c"
+    },
+    {
+      "id": "8467ac5d-e3fa-4de8-ae48-1bbc765ae1ca",
+      "type": "istar.DependencyLink",
+      "source": "c629941b-f31f-4e23-8874-6f20351a0e5c",
+      "target": "b7692b8c-042d-4e72-973e-e1e6cf4fd2da"
+    },
+    {
+      "id": "08de5e71-9f7c-48df-a04d-482db235f6b5",
+      "type": "istar.DependencyLink",
+      "source": "cfce00dc-6d36-468f-a8a8-0ee465730740",
+      "target": "e4c39e86-2c4e-4815-80ae-aa6529350c97"
+    },
+    {
+      "id": "c09e33dc-29d6-4e78-93a8-bd778ea23fc9",
+      "type": "istar.DependencyLink",
+      "source": "e4c39e86-2c4e-4815-80ae-aa6529350c97",
+      "target": "237974be-13e8-46fe-a8c4-83c025faeb53"
+    },
+    {
+      "id": "d7d2e349-a3f7-448e-9bcf-9da34cfd39b3",
+      "type": "istar.DependencyLink",
+      "source": "cfce00dc-6d36-468f-a8a8-0ee465730740",
+      "target": "afca2328-4267-4e99-95dc-09eb69d17f9d"
+    },
+    {
+      "id": "171aed20-cfde-4495-8550-594b3f546b2b",
+      "type": "istar.DependencyLink",
+      "source": "afca2328-4267-4e99-95dc-09eb69d17f9d",
+      "target": "237974be-13e8-46fe-a8c4-83c025faeb53"
+    },
+    {
+      "id": "61ab87b9-73b7-4e59-859a-f25d62a4e2e6",
+      "type": "istar.DependencyLink",
+      "source": "35516646-86de-4444-96e1-fb28e7611c7a",
+      "target": "237974be-13e8-46fe-a8c4-83c025faeb53"
+    },
+    {
+      "id": "f232220f-1861-4e99-a59a-aa799a55d986",
+      "type": "istar.DependencyLink",
+      "source": "cfce00dc-6d36-468f-a8a8-0ee465730740",
+      "target": "35516646-86de-4444-96e1-fb28e7611c7a"
+    },
+    {
+      "id": "818326c6-9f27-47ba-874a-7426dba803cd",
+      "type": "istar.DependencyLink",
+      "source": "b3c1862f-f239-4d85-a296-b072f01ef0ba",
+      "target": "b7692b8c-042d-4e72-973e-e1e6cf4fd2da"
+    },
+    {
+      "id": "0959c5cd-d146-4c6b-bcc8-642042b8dde0",
+      "type": "istar.DependencyLink",
+      "source": "0b170a08-a73f-4bac-8a84-1c819709fe3a",
+      "target": "b3c1862f-f239-4d85-a296-b072f01ef0ba"
+    },
+    {
+      "id": "82890652-df50-43f2-a910-2eb3a6d2292c",
+      "type": "istar.DependencyLink",
+      "source": "f96de0ac-78df-4c9f-8c66-62d908bc1276",
+      "target": "b7692b8c-042d-4e72-973e-e1e6cf4fd2da"
+    },
+    {
+      "id": "4d1692d0-185f-40fb-8c6c-789c6aae2370",
+      "type": "istar.DependencyLink",
+      "source": "0b170a08-a73f-4bac-8a84-1c819709fe3a",
+      "target": "f96de0ac-78df-4c9f-8c66-62d908bc1276"
+    },
+    {
+      "id": "e240f053-494e-4a4f-9683-0b91aec76dc1",
+      "type": "istar.DependencyLink",
+      "source": "43d540d9-413c-43d5-af4f-43624e3382c7",
+      "target": "237974be-13e8-46fe-a8c4-83c025faeb53"
+    },
+    {
+      "id": "6e27c56e-fc9d-4258-a4e1-3a2abab28112",
+      "type": "istar.DependencyLink",
+      "source": "0b170a08-a73f-4bac-8a84-1c819709fe3a",
+      "target": "43d540d9-413c-43d5-af4f-43624e3382c7"
+    },
+    {
+      "id": "e98359e8-261e-4d5c-9e4b-cfa7d9f45503",
+      "type": "istar.DependencyLink",
+      "source": "0b170a08-a73f-4bac-8a84-1c819709fe3a",
+      "target": "d9ffd0e7-0371-4a56-b395-eab87af4556c"
+    },
+    {
+      "id": "bef3d253-3d8a-4b84-9dfd-a8408a35c4c3",
+      "type": "istar.DependencyLink",
+      "source": "d9ffd0e7-0371-4a56-b395-eab87af4556c",
+      "target": "237974be-13e8-46fe-a8c4-83c025faeb53"
+    },
+    {
+      "id": "d3ab0e31-bd6c-4c45-9677-11bae28e1114",
+      "type": "istar.DependencyLink",
+      "source": "8a19b240-f173-479f-999d-80e1919e0b38",
+      "target": "237974be-13e8-46fe-a8c4-83c025faeb53"
+    },
+    {
+      "id": "e9c9a29c-3dab-4c06-af09-80abe5323d2a",
+      "type": "istar.DependencyLink",
+      "source": "0b170a08-a73f-4bac-8a84-1c819709fe3a",
+      "target": "8a19b240-f173-479f-999d-80e1919e0b38"
+    }
+  ],
+  "display": {
+    "b7692b8c-042d-4e72-973e-e1e6cf4fd2da": {
+      "collapsed": true
+    },
+    "cfce00dc-6d36-468f-a8a8-0ee465730740": {
+      "collapsed": true
+    },
+    "237974be-13e8-46fe-a8c4-83c025faeb53": {
+      "collapsed": true
+    },
+    "40db80ca-86b2-4297-aa0c-1119f2f8f883": {
+      "backgroundColor": "#FA9383"
+    },
+    "c629941b-f31f-4e23-8874-6f20351a0e5c": {
+      "backgroundColor": "#FA9383"
+    },
+    "e4c39e86-2c4e-4815-80ae-aa6529350c97": {
+      "backgroundColor": "#A9A9FA",
+      "width": 102.19999694824219,
+      "height": 49.30000305175781
+    },
+    "afca2328-4267-4e99-95dc-09eb69d17f9d": {
+      "backgroundColor": "#FA9383",
+      "width": 100.19999694824219,
+      "height": 58.80000305175781
+    },
+    "35516646-86de-4444-96e1-fb28e7611c7a": {
+      "backgroundColor": "#FA9383",
+      "width": 89.19999694824219,
+      "height": 57.80000305175781
+    },
+    "b3c1862f-f239-4d85-a296-b072f01ef0ba": {
+      "backgroundColor": "#FA9383"
+    },
+    "f96de0ac-78df-4c9f-8c66-62d908bc1276": {
+      "backgroundColor": "#FA9383"
+    },
+    "43d540d9-413c-43d5-af4f-43624e3382c7": {
+      "backgroundColor": "#FA9383"
+    },
+    "d9ffd0e7-0371-4a56-b395-eab87af4556c": {
+      "backgroundColor": "#77F6FA",
+      "width": 106.19999694824219,
+      "height": 48.80000305175781
+    },
+    "8a19b240-f173-479f-999d-80e1919e0b38": {
+      "backgroundColor": "#77F6FA"
+    },
+    "0b170a08-a73f-4bac-8a84-1c819709fe3a": {
+      "collapsed": true
+    }
+  },
+  "tool": "pistar.2.0.0",
+  "istar": "2.0",
+  "saveDate": "Wed, 11 Nov 2020 23:18:45 GMT",
+  "diagram": {
+    "width": 2000,
+    "height": 1300,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}
