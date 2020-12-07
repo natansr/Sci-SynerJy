@@ -7,7 +7,7 @@ Parallel version of the SCI-synergy project available at: https://gitlab.com/Inf
 - New graph views
 - Disambiguation of authors' names 
 
-1.1 - Branch 1.1 - DesambAgent
+1.1 - DesambAgent
 
 Name disambiguation module using a multi-agent approach with JADE. Made as a final project of the discipline "Multiagent Systems" offered by CIC / University of Brasília.
 
