@@ -50,7 +50,7 @@ public class AgenteExecutor4 extends Agent{
 				  //System.out.println(msgRx);
 				   
 					ACLMessage msgTx1 = msgRx1.createReply();
-				  // msgTx1.setPerformative(ACLMessage.);
+				    msgTx1.setPerformative(ACLMessage.ACCEPT_PROPOSAL);
 				   
 
 				   String autor = a1.getNome();

@@ -209,10 +209,10 @@ public class AgenteMestre extends Agent {
 					                	//Enviando o autor e suas informações para um agente
 						        		
 						        		//NOME
-						        		ACLMessage msgTx1 = new ACLMessage(ACLMessage.INFORM);
-						        		ACLMessage msgTx2 = new ACLMessage(ACLMessage.INFORM);
-						        		ACLMessage msgTx3 = new ACLMessage(ACLMessage.INFORM);
-						        		ACLMessage msgTx4 = new ACLMessage(ACLMessage.INFORM);
+						        		ACLMessage msgTx1 = new ACLMessage(ACLMessage.PROPOSE);
+						        		ACLMessage msgTx2 = new ACLMessage(ACLMessage.PROPOSE);
+						        		ACLMessage msgTx3 = new ACLMessage(ACLMessage.PROPOSE);
+						        		ACLMessage msgTx4 = new ACLMessage(ACLMessage.PROPOSE);
 										
 						        		msgTx1.addReceiver(new AID("AgenteExecutor1", false));
 										msgTx2.addReceiver(new AID("AgenteExecutor2", false));
