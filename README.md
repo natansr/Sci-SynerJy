@@ -2,12 +2,12 @@
 
 Parallel version of the SCI-synergy project available at: https://gitlab.com/InfoKnow/SocialNetwork/aureliocosta-sci-synergy
 
-1.0 - This version has been completely remodeled in Java with new features (ADAM Genesis):
+1.0 - This version has been completely remodeled in Java with new features:
 
 - New graph views
 - Disambiguation of authors' names 
 
-1.1 - DesambAgent
+1.1 - DesambAgent - ADAM(Agent Disambiguation Author naMe) Genesis
 
 Name disambiguation module using a multi-agent approach with JADE. Made as a final project of the discipline "Multiagent Systems" offered by CIC / University of Brasília.
 
