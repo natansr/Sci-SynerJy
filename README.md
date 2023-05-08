@@ -11,6 +11,7 @@ Parallel version of the SCI-synergy project available at: https://gitlab.com/Inf
 
 Name disambiguation module using a multi-agent approach with JADE. Made as a final project of the discipline "Multiagent Systems" offered by CIC / University of Brasília.
 
+
 - It has the same objective as DesambModule (1.0), but uses a multi-agent strategy.
 - New types of comparison and similarity of strings (Dice, Cosine) have been added
 
